@@ -1,0 +1,69 @@
+.header{
+    max-width: 1180px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+}
+
+.middle{
+    display: flex;
+    margin-left: 40px;
+}
+
+.text{
+    font-size: 35px;
+    margin-left: 80px;
+margin-top: 140px;
+color: rgba(0, 0, 0, 0.584);
+
+}
+
+
+.sov-crag{
+    display: flex;
+    gap: 15px;
+}
+.pah-masn{
+    gap: 15px;
+    display: flex;
+}
+
+
+.sovorir{
+color: black;
+}
+
+.img {
+    height: 700px;
+    width: 500px;
+
+}
+
+.bottm-text{
+    
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.584);
+}
+
+
+.vd-elem{
+    display: flex;
+    font-size: 20px;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.tesanyut{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.vd{
+    margin-top: 8px;
+}
+
+.logo-tesanyut{
+    display: flex;
+    gap: 4px;
+}
