@@ -6,7 +6,7 @@ const Box = (props) => {
 
     return(
         <div className='box-holder' >
-<h1> {props.el.title}</h1>
+<h3> {props.el.title}</h3>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import Box from "../Box/Box"
-
+import './Middle.css'
 
 const Middle = (props) => {
 
@@ -8,7 +8,7 @@ const Middle = (props) => {
         <div className="mid-holder">
             <div className="second-text">
                 <h1>Ծրագրավորման դասնթացներ</h1>
-                <h3 className="text2">Ծրագրավորման դասնթացներ</h3>
+                <h3 className="text2">Ծրագրավորման դասընթացներ նախատեսված սկսնակների համար</h3>
             </div>
 
             <div className="mid-part2">
