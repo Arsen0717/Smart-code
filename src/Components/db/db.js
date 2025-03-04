@@ -1,40 +1,194 @@
-export const navigation = ['դասնթացներ','առավելություններ','թրեյներներ','մեր մասին']
+const navigation = ['դասնթացներ', 'առավելություններ', 'թրեյներներ', 'մեր մասին'];
+const lessons = ["Դասընթացներ", "Առավելություններ", "Թրեյներներ", "Մեր մասին"];
+const logos = ["facebook", "linkedin", "instagram", "tik-tok"];
 
-
-export const data = [
+const data = [
     {
-        id : '1',
-        title : 'WEB Front-End',
-        duration : '9 ամիս',
-        price : '58,000',
-        image : 'https://smartcode.am/public/image/courses/front-end.svg',
-                     
+        id: 1,
+        img: "front-end",
+        title: "WEB Front-End",
+        month: "9 ամիս",
+        money: "58,000 ֏"
     },
-
     {
-        id : '2',
-        title : 'Python (ML / AI)',
-        duration : '9 ամիս',
-        price : '58,000',
-        image : 'https://smartcode.am/public/image/courses/front-end.svg',
-                     
+        id: 2,
+        img: "python-ml",
+        title: "Python (ML / AI)",
+        month: "7 ամիս",
+        money: "68,000 ֏"
     },
-
     {
-        id : '3',
-        title : 'Java',
-        duration : '9 ամիս',
-        price : '58,000',
-        image : 'https://smartcode.am/public/image/courses/front-end.svg',
-                     
+        id: 3,
+        img: "java",
+        title: "Java",
+        month: "6 ամիս",
+        money: "68,000 ֏"
     },
-
     {
-        id : '3',
-        title : 'JavaScript',
-        duration : '9 ամիս',
-        price : '58,000',
-        image : 'https://smartcode.am/public/image/courses/front-end.svg',
-                     
+        id: 4,
+        img: "javaScript",
+        title: "JavaScript",
+        month: "3.5 ամիս",
+        money: "58,000 ֏"
     }
-]
+];
+
+
+
+
+
+const features = [
+    {
+        id: 1,
+        icon: "user",
+        title: "Փորձառու մասնագետներ",
+        info: "Դասավանդում են փորձառու մասնագետներ, ովքեր կմատուցեն Ձեզ բարդ թվացող ինֆորմացիան բավականին պարզեցված տեսքով:"
+    },
+    {
+        id: 2,
+        icon: "checked",
+        title: "Փոքր խմբեր անհատական մոտեցում",
+        info: "Դասընթացները անցկացվում են՝ 6-8 ուսանողից կազմված խմբերից, ապահովելով անհատական մոտեցում յուրաքանչյուր ուսանողին:"
+    },
+    {
+        id: 3,
+        icon: "coffee-cup",
+        title: "Հարմարավետ կահավորված լսարաններ",
+        info: "Մեր հարմարավետ կահավորված լսարաններում Ձեր ուսման պրոցեսը կդառնա էլ ավելի հաճելի։"
+    },
+    {
+        id: 4,
+        icon: "giving",
+        title: "Փորձնական 3 դաս",
+        info: "Բոլոր ուսանողներին կտրամադրվի 3 փորձնական դաս, որը Ձեզ հնարավորություն կտա փորձել Ձեր ուժերը և ծանոթանալ դասապրոցեսի ընթացքին։"
+    }
+];
+
+
+
+
+
+
+
+const trainers = [
+    {
+        id: 1,
+        img: "https://smartcode.am/public/image/staff/29.png",
+        name: "Ապրես",
+        theme: "Java"
+    },
+    {
+        id: 2,
+        img: "https://smartcode.am/public/image/staff/6.png?v=1.2",
+        name: "Ալբերտ",
+        theme: "Python / ML"
+    },
+    {
+        id: 3,
+        img: "https://smartcode.am/public/image/staff/19.png?v=1.2",
+        name: "Ռոման",
+        theme: "React.js"
+    },
+    {
+        id: 4,
+        img: "https://smartcode.am/public/image/staff/12.png",
+        name: "Ալբերտ",
+        theme: "Python / ML"
+    },
+    {
+        id: 5,
+        img: "https://smartcode.am/public/image/staff/31.png",
+        name: "Արմենուհի",
+        theme: "UX / UI"
+    },
+    {
+        id: 6,
+        img: "https://smartcode.am/public/image/staff/14.png",
+        name: "Վարդգես",
+        theme: "Python / Django"
+    },
+    {
+        id: 7,
+        img: "https://smartcode.am/public/image/staff/30.png",
+        name: "Անժելա",
+        theme: "UX / UI"
+    },
+    {
+        id: 8,
+        img: "https://smartcode.am/public/image/staff/15.png",
+        name: "Հայկ",
+        theme: "HTML / CSS"
+    },
+    {
+        id: 9,
+        img: "https://smartcode.am/public/image/staff/28.png?v=1",
+        name: "Կառլեն",
+        theme: "C#"
+    },
+    {
+        id: 10,
+        img: "https://smartcode.am/public/image/staff/16.png",
+        name: "Գոռ",
+        theme: "Python / OOP"
+    },
+    {
+        id: 11,
+        img: "https://smartcode.am/public/image/staff/17.png",
+        name: "Նարեկ",
+        theme: "React.js"
+    },
+    {
+        id: 12,
+        img: "https://smartcode.am/public/image/staff/22.png",
+        name: "Էրիկ",
+        theme: "Java"
+    },
+    {
+        id: 13,
+        img: "https://smartcode.am/public/image/staff/23.png",
+        name: "Արման",
+        theme: "HTML / CSS"
+    },
+    {
+        id: 14,
+        img: "https://smartcode.am/public/image/staff/24.png",
+        name: "Սերգեյ",
+        theme: "Front-End"
+    },
+    {
+        id: 15,
+        img: "https://smartcode.am/public/image/staff/26.png",
+        name: "Վահե",
+        theme: "HTML / CSS"
+    }
+];
+
+const contact = [
+    {
+        id: 1,
+        img: "call",
+        info: "+374 41 435344"
+    },
+    {
+        id: 2,
+        img: "call",
+        info: "+374 98 435341"
+    },
+    {
+        id: 3,
+        img: "email",
+        info: "support@smartcode.am"
+    },
+    {
+        id: 4,
+        img: "email",
+        info: "hr@smartcode.am"
+    },
+    {
+        id: 5,
+        img: "maps",
+        info: "Հանրապետության 22"
+    }
+];
+
+export { navigation, lessons, logos, data, features, trainers, contact };

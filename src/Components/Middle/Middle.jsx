@@ -1,7 +1,8 @@
-import Box from "../Box/Box"
+
+import Box from './Box/Box'
 import './Middle.css'
 
-const Middle = (props) => {
+const Middle = ({data}) => {
 
     return (
         
@@ -14,11 +15,12 @@ const Middle = (props) => {
             <div className="mid-part2">
 
                 <div className="boxs">
-                      {
-                        props.data.map((el) => {
-                        return <Box el={el}/>
-                        })
-                      }
+                    <div className="item">
+                       <Box  data={data} />
+                       </div>
+                       <div className="lessons-img">
+                    <img src="https://smartcode.am/public/image/per4.svg" />
+                    </div>
                 </div>
             </div>
         </div>

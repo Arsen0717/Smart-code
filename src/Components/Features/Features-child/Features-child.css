@@ -1,0 +1,20 @@
+.features-box{
+display: flex;    
+flex-direction: column;
+}
+
+.features{
+    display: flex;    
+flex-direction: column;
+gap: 30px;
+}
+
+.features-title{
+    font-size: 30px;
+
+}
+
+.features-info{
+    font-size: 20px;
+
+}

@@ -2,7 +2,6 @@ import Elem from '../start-button/start-button'
 import './Nav.css'
  
  function Nav(props) {
-  console.log(props);
   
   return (
     <nav className="nav">
@@ -17,8 +16,8 @@ import './Nav.css'
     }
 
 
-      </div>
         <Elem />
+      </div>
     </nav>
   )
 };
